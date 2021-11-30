@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Ojo Mager</string>
+    <string name="app_first_name">Ojo\nMager</string>
+    <string name="create_account">Create Account</string>
+    <string name="email_example">youremail@domain.com</string>
+    <string name="name_example">Your Name</string>
+    <string name="password_example">yourpassword123</string>
+    <string name="have_account">Already have account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="dont_have_account">Dont have an account?</string>
 </resources>
