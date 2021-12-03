@@ -1,9 +1,11 @@
-package com.kelompok1.ojomager
+package com.kelompok1.ojomager.activites
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_login.*
 import android.os.Bundle
-import android.widget.TextView
+import android.widget.Toast
+import com.kelompok1.ojomager.R
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,9 +14,11 @@ class LoginActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
-        val btnCreateAccount = findViewById<TextView>(R.id.tv_create_account)
+        btn_signin.setOnClickListener {
+            Toast.makeText(applicationContext, "Sign In Button Touched", Toast.LENGTH_SHORT).show()
+        }
 
-        btnCreateAccount.setOnClickListener {
+        tv_create_account.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
     }

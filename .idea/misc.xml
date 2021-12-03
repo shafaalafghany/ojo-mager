@@ -3,13 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/auth_button.xml" value="0.17685185185185184" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/button.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/nav_button.xml" value="0.17685185185185184" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/rounded.xml" value="0.19722222222222222" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/rounded_button.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/rounded_edit_text.xml" value="0.22552083333333334" />
-        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_login.xml" value="0.16090225563909774" />
-        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_main.xml" value="0.1838768115942029" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_register.xml" value="0.18" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/nav_header.xml" value="0.22" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/menu/nav_menu.xml" value="0.209375" />
       </map>
     </option>
   </component>

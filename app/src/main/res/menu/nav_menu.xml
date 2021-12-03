@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/training_plans"
+        android:title="@string/training_plans" />
+
+    <item
+        android:id="@+id/discovery"
+        android:title="@string/discovery" />
+
+    <item
+        android:id="@+id/report"
+        android:title="@string/report"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/reminder"
+        android:title="@string/reminder"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/account"
+        android:title="@string/account"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/signin"
+        android:title="@string/sign_in" />
+
+    <item
+        android:id="@+id/signout"
+        android:title="@string/sign_out"
+        android:visible="false"/>
+
+</menu>
