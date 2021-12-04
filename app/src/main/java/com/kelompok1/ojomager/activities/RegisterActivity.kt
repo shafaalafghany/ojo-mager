@@ -1,4 +1,4 @@
-package com.kelompok1.ojomager.activites
+package com.kelompok1.ojomager.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,7 +11,6 @@ import com.kelompok1.ojomager.models.DefaultResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import retrofit2.Retrofit
 
 class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,7 +51,10 @@ class RegisterActivity : AppCompatActivity() {
                     call: Call<DefaultResponse>,
                     response: Response<DefaultResponse>
                 ) {
-                    Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
+                    Toast.makeText(applicationContext, "Now you can login here", Toast.LENGTH_LONG).show()
+                    if (response.body()?.status == true) {
+                        startActivity(Intent(this@RegisterActivity, LoginActivity::class.java))
+                    }
                 }
 
                 override fun onFailure(call: Call<DefaultResponse>, t: Throwable) {
