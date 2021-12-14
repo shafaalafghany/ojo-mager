@@ -6,16 +6,16 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
-//    private const val BASE_URl = "https://ojo-mager-backend.herokuapp.com/api/"
-    private const val BASE_URl = "http://172.26.144.1:3000/api/"
-    private val token = ""
+    private val BASE_URl = "https://ojo-mager-backend.herokuapp.com/api/"
+//    private const val BASE_URl = "http://172.26.144.1:3000/api/"
+    private var token = ""
 
     private val okHttpClient = OkHttpClient.Builder()
         .addInterceptor { chain ->
             val original = chain.request()
 
             val requestBuilder = original.newBuilder()
-                .addHeader("Authorization", "")
+                .addHeader("Authorization", token)
                 .method(original.method, original.body)
 
             val request = requestBuilder.build()

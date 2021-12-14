@@ -15,6 +15,8 @@ class ProfileActivity : AppCompatActivity() {
         val data = SharedPrefManager.getInstance(this)?.user
 
         tv_fullname.text = data?.user_fullname
+        tv_email.text = data?.user_email
+        tv_phone.text = data?.user_phone
     }
 
     override fun onStart() {

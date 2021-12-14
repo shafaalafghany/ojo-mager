@@ -4,18 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/auth_button.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/bell_icon.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/button.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/ic_outline_notifications_24.xml" value="0.20462962962962963" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/item_button.xml" value="0.1171875" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/nav_button.xml" value="0.17685185185185184" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/rounded.xml" value="0.19722222222222222" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/rounded_button.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/drawable/rounded_edit_text.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_drawer.xml" value="0.25" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_login.xml" value="0.33" />
-        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_main.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_main.xml" value="0.23277359583092067" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_register.xml" value="0.18" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/activity_splash_screen.xml" value="0.15" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/dialog_fragment_set_goal.xml" value="0.1" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/dropdown_weekly_item.xml" value="0.5" />
+        <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/item_row_vertical.xml" value="0.25" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/layout/nav_header.xml" value="0.22" />
         <entry key="..\:/Users/Shafa Alafghany/Documents/Projects/Kotlin/OjoMager/app/src/main/res/menu/nav_menu.xml" value="0.209375" />
       </map>
