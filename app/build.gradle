@@ -8,6 +8,9 @@ android {
     compileSdk 31
 
     defaultConfig {
+        configurations.all {
+            resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
+        }
         applicationId "com.kelompok1.ojomager"
         minSdk 21
         targetSdk 31
@@ -29,6 +32,11 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
     }
 }
 

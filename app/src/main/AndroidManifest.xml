@@ -13,6 +13,12 @@
         android:theme="@style/Theme.OjoMager"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.DiscoveryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.ReminderActivity"
+            android:exported="true" />
+        <activity
             android:name=".activities.MainActivity"
             android:exported="true" />
         <activity

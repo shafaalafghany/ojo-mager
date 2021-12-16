@@ -17,7 +17,7 @@ import com.kelompok1.ojomager.ui.home.SetGoalDialog
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var toggle: ActionBarDrawerToggle
+    private lateinit var toggle: ActionBarDrawerToggle
     private lateinit var rvMain : RecyclerView
     private var list : ArrayList<Item> = arrayListOf()
 
@@ -39,8 +39,7 @@ class MainActivity : AppCompatActivity() {
         showFirstRecyclerList()
 
         btn_set_goal.setOnClickListener {
-            Toast.makeText(this, "Set A Goal touched!", Toast.LENGTH_SHORT).show()
-            var dialog = SetGoalDialog()
+            val dialog = SetGoalDialog()
 
             dialog.show(supportFragmentManager, "Set Goal")
         }
@@ -62,16 +61,17 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.account -> startActivity(Intent(this, ProfileActivity::class.java))
                 R.id.training_plans -> startActivity(Intent(this, MainActivity::class.java))
-                R.id.discovery -> Toast.makeText(
-                    applicationContext,
-                    "Going to discovery screen",
-                    Toast.LENGTH_SHORT
-                ).show()
+                R.id.discovery -> {
+                    startActivity(Intent(this, DiscoveryActivity::class.java))
+                }
                 R.id.report -> Toast.makeText(
                     applicationContext,
                     "Going to report screen",
                     Toast.LENGTH_SHORT
                 ).show()
+                R.id.reminder -> {
+                    startActivity(Intent(this, ReminderActivity::class.java))
+                }
                 R.id.signin -> startActivity(Intent(this, LoginActivity::class.java))
                 R.id.signout -> {
                     SharedPrefManager.getInstance(this)?.clear()
