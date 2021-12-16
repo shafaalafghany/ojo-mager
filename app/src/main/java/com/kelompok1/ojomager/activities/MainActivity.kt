@@ -10,6 +10,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.kelompok1.ojomager.R
 import com.kelompok1.ojomager.adapter.MainItemAdapter
+import com.kelompok1.ojomager.adapter.SecondItemAdapter
+import com.kelompok1.ojomager.adapter.ThirdItemAdapter
+import com.kelompok1.ojomager.data.BeginnerListItem
+import com.kelompok1.ojomager.data.IntermediateListItem
 import com.kelompok1.ojomager.data.ListItem
 import com.kelompok1.ojomager.models.Item
 import com.kelompok1.ojomager.storage.SharedPrefManager
@@ -20,11 +24,27 @@ class MainActivity : AppCompatActivity() {
     private lateinit var toggle: ActionBarDrawerToggle
     private lateinit var rvMain : RecyclerView
     private var list : ArrayList<Item> = arrayListOf()
+    private var list2 : ArrayList<Item> = arrayListOf()
+    private var list3 : ArrayList<Item> = arrayListOf()
 
     private fun showFirstRecyclerList() {
         rvMain = rv_first_label
         rvMain.layoutManager = LinearLayoutManager(this)
         val listItemAdapter = MainItemAdapter(list)
+        rvMain.adapter = listItemAdapter
+    }
+
+    private fun showSecondRecyclerList() {
+        rvMain = rv_second_label
+        rvMain.layoutManager = LinearLayoutManager(this)
+        val listItemAdapter = SecondItemAdapter(list2)
+        rvMain.adapter = listItemAdapter
+    }
+
+    private fun showThirdRecyclerList() {
+        rvMain = rv_third_label
+        rvMain.layoutManager = LinearLayoutManager(this)
+        val listItemAdapter = ThirdItemAdapter(list3)
         rvMain.adapter = listItemAdapter
     }
 
@@ -36,12 +56,20 @@ class MainActivity : AppCompatActivity() {
 
         rv_first_label.setHasFixedSize(true)
         list.addAll(ListItem.listData)
+        list2.addAll(BeginnerListItem.listData)
+        list3.addAll(IntermediateListItem.listData)
         showFirstRecyclerList()
+        showSecondRecyclerList()
+        showThirdRecyclerList()
 
         btn_set_goal.setOnClickListener {
             val dialog = SetGoalDialog()
 
             dialog.show(supportFragmentManager, "Set Goal")
+        }
+
+        img_btn_quarantine.setOnClickListener {
+            Toast.makeText(this, "Quarantine At Home Touched", Toast.LENGTH_SHORT).show()
         }
 
         toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.open, R.string.close)

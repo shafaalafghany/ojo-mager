@@ -182,6 +182,73 @@
                 android:layout_marginStart="78dp"
                 android:layout_marginTop="547dp" />
 
+            <ImageButton
+                android:id="@+id/img_btn_quarantine"
+                android:layout_width="370dp"
+                android:layout_height="120dp"
+                android:background="@drawable/best_quarantine"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="590dp"/>
+
+            <TextView
+                android:id="@+id/tv_quarantine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_label_challenge"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="630dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/best_quarantine_desc"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="650dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/beginner"
+                android:textColor="#424350"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginTop="720dp"
+                android:layout_marginStart="20dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_second_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="750dp"
+                android:layout_gravity="center_horizontal"
+                tools:listitem="@layout/item_row_vertical_second" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intermediate"
+                android:textColor="#424350"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginTop="1405dp"
+                android:layout_marginStart="20dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_third_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="1430dp"
+                android:layout_gravity="center_horizontal"
+                tools:listitem="@layout/item_row_vertical_second" />
+
         </FrameLayout>
 
     </ScrollView>
